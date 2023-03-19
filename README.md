@@ -14,7 +14,7 @@ redns.site，使用这个域名，加上注册到这域名上的ip地址，你�
 1. 向redns.site接口提交site、ipv6、port信息
    - 接口请求方式：post
    - 接口参数：
-     - site：注册的你的site的key
+     - site：注册的你的site的key,支持中文
      - ip：你的ipv6地址
      - port：（可选）需要重定向时，是否重定向到80外的端口，不填默认重定向到80端口
    - 例子：
